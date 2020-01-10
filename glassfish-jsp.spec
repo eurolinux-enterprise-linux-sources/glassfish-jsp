@@ -4,7 +4,7 @@
 
 Name:       glassfish-jsp
 Version:    2.2.6
-Release:    10%{?dist}
+Release:    11%{?dist}
 Summary:    Glassfish J2EE JSP API implementation
 
 Group:      Development/Libraries
@@ -74,6 +74,9 @@ cp -p %{SOURCE3} cddllicense.txt
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2.6-11
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 2.2.6-10
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
